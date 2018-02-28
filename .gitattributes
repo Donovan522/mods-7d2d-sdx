@@ -1,0 +1,8 @@
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.xml eol=crlf
+*.txt eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
