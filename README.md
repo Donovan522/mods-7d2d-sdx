@@ -1,4 +1,6 @@
-##How to Install
+# SpikeDaddy's XML Mod
+
+## How to Install
 
 This repository is meant to be used with the [7d2d launcher][launcher], using the [Archive
 Link][archive]
