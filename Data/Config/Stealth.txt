@@ -59,7 +59,7 @@ AWAKE Zombie Properties (entityclasses.xml)
 	Not randomised itself but used to LERP the *required* light levels
 	for detection at the current distance. (math speak, look it up)
 
-* SightScale="MinLight,MaxLight" : defines how well lit you have to be for the zombie to see you.
+* SightLightThreshold="MinRangeLight,MaxRangeLight" : defines how well lit you have to be for the zombie to see you.
 	2 constants for this entity class. Not randomised.
 	At the zombies furthest sight distance, any player who is brighter than MaxLight will be seen.
 	At 0 distance from the zombie any player that is brighter than MinLight will be seen.

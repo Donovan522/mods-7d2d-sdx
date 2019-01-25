@@ -6,14 +6,11 @@
 			<window name="popupMenu" />
 		</window_group>
 
-		<window_group name="profiles">
-			<window name="windowArchetypePreview" />
-		</window_group>
-
 		<window_group name="archetypes" controller="XUiC_ArchetypesWindowGroup" stack_panel_y_offset="332">
-			<window name="windowArchetypePreview2" />
-			<window name="windowSliders" />
-			<window name="windowColorPicker" />
+			<window name="windowArchetypePreview2"/>
+			<window name="windowSliders"/>
+			<window name="windowColorPicker"/>
+			<window name="windowArchetypeButtons" />
 		</window_group>
 
 		<!--#$-IGS BEGIN: Adding window to hold gampad callouts -$#-->
@@ -22,18 +19,97 @@
 		</window_group>
 		<!--*#$-IGS END.-$#-->
 
-		<window_group name="rwgeditor" controller="XUiC_RWGEditorWindowGroup">
-			<window name="windowRWGPreview" />
-			<!--<window name="windowRWGPoiList" />-->
-			<!--<window name="windowRWGLSystem" />-->
+		<window_group name="rwgeditor">
+			<window name="worldGeneration" />
+		</window_group>
+
+		<window_group name="loadingProgress" controller="ProgressWindowGroup">
+			<window name="loadingProgress"/>
 		</window_group>
 
 		<window_group name="messageBox" controller="MessageBoxWindowGroup">
 			<window name="messageBox" />
 		</window_group>
 
+		<window_group name="editingTools">
+			<window name="editingTools" />
+		</window_group>
+
 		<window_group name="createWorld" controller="CreateWorld">
 			<window name="createWorld" />
 		</window_group>
+
+		<window_group name="steamLogin">
+			<window name="steamLogin" />
+		</window_group>
+
+		<window_group name="menuBackground" actionSet="false">
+			<window name="menuBackground" />
+		</window_group>
+
+		<window_group name="mainMenuLogo" actionSet="false">
+			<window name="mainMenuLogo" />
+		</window_group>
+
+		<window_group name="mainMenu">
+			<window name="mainMenu" />
+		</window_group>
+
+		<window_group name="newContinueGame">
+			<window name="newContinueGame" />
+		</window_group>
+
+		<window_group name="serverBrowser">
+			<window name="serverBrowser" />
+		</window_group>
+
+		<window_group name="serverPassword">
+			<window name="serverPassword" />
+		</window_group>
+
+		<window_group name="optionsMenu">
+			<window name="optionsMenu" />
+		</window_group>
+
+		<window_group name="optionsVideo">
+			<window name="optionsVideo" />
+		</window_group>
+
+		<window_group name="optionsAudio">
+			<window name="optionsAudio" />
+		</window_group>
+
+		<window_group name="optionsControls">
+			<window name="optionsControls" />
+		</window_group>
+
+		<window_group name="optionsControlsNewBinding">
+			<window name="optionsControlsNewBinding" />
+		</window_group>
+
+		<window_group name="optionsProfiles">
+			<window name="optionsProfiles" />
+		</window_group>
+
+		<window_group name="optionsUsername">
+			<window name="optionsUsername" />
+		</window_group>
+
+		<window_group name="credits">
+			<window name="credits" />
+		</window_group>
+
+		<window_group name="eacWarning" actionSet="false">
+			<window name="eacWarning" />
+		</window_group>
+
+		<window_group name="progress" actionSet="false">
+			<window name="progress" />
+		</window_group>
+
+		<window_group name="spawnselection">
+			<window name="spawnselection" />
+		</window_group>
+
 	</ruleset>
 </xui>
