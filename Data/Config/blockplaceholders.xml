@@ -223,9 +223,9 @@
 		<block name="cntAmmoPileSmall" prob="1"/>
 	</placeholder>
 
-	<!-- <block name="cntChest01" prob="1"/> -->
-	<!-- <block name="cntDeskSafe" prob="1"/> -->
-	<!--
+		<!-- <block name="cntChest01" prob="1"/> -->
+		<!-- <block name="cntDeskSafe" prob="1"/> -->
+		<!--
 		<block name="cntBackpack01" prob="1"/>
 		<block name="cntBackpack03" prob="1"/>
 		<block name="cntDuffle01" prob="1"/>

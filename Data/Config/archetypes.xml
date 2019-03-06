@@ -1,118 +1,118 @@
 <archetypes>
 	<alt_hair name="male_base_hair">
-		<part mesh="">
-			<texture name="male_hair_overlay" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="male_hair_overlay" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="unisex_hair_dreads">
-		<part mesh="unisex_hair_dreads_hat">
-			<texture name="unisex_hair_dreads_hat" color="hair"/>
-		</part>
+			<part mesh="unisex_hair_dreads_hat">
+				<texture name="unisex_hair_dreads_hat" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="unisex_hair_afro">
-		<part mesh="unisex_hair_afro_hat">
-			<texture name="unisex_hair_afro" color="hair"/>
-		</part>
+			<part mesh="unisex_hair_afro_hat">
+				<texture name="unisex_hair_afro" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="unisex_viking_braid">
-		<part mesh="">
-			<texture name="unisex_viking_braid" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="unisex_viking_braid" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="unisex_hair_raider">
-		<part mesh="">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_shaggy_hair">
-		<part mesh="male_shaggy_hair_hat">
-			<texture name="male_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="male_shaggy_hair_hat">
+				<texture name="male_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_mohawk">
-		<part mesh="">
-			<texture name="male_hair_overlay" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="male_hair_overlay" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_hair_short_shaggy">
-		<part mesh="male_hair_short_shaggy_hat">
-			<texture name="male_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="male_hair_short_shaggy_hat">
+				<texture name="male_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_hair_pomp">
-		<part mesh="">
-			<texture name="male_hair_overlay" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="male_hair_overlay" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_hair_long_pomp">
-		<part mesh="male_hair_long_pomp_hat">
-			<texture name="male_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="male_hair_long_pomp_hat">
+				<texture name="male_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_hair_bun">
-		<part mesh="male_hair_bun_hat">
-			<texture name="male_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="male_hair_bun_hat">
+				<texture name="male_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="male_hair_sideshave_longtop">
-		<part mesh="">
-			<texture name="male_hair_overlay" color="hair"/>
-		</part>
+			<part mesh="">
+				<texture name="male_hair_overlay" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_hair_bun">
-		<part mesh="female_hair_bun_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_hair_bun_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_hair_buns">
-		<part mesh="female_hair_buns_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_hair_buns_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_hair_choppy">
-		<part mesh="female_hair_choppy_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_hair_choppy_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_hair_long">
-		<part mesh="female_hair_long_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_hair_long_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_hair_ponytail03">
-		<part mesh="female_hair_ponytail03_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_hair_ponytail03_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_ponytail">
-		<part mesh="female_ponytail_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_ponytail_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_shaggy_hair_ponytail">
-		<part mesh="female_shaggy_hair_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_shaggy_hair_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_shaggy_hair">
-		<part mesh="female_shaggy_hair_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_shaggy_hair_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_shaggy_hair02">
-		<part mesh="female_shaggy_hair_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_shaggy_hair_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_mohawk">
-		<part mesh="female_shaggy_hair_hat">
-			<texture name="female_shaggy_hair" color="hair"/>
-		</part>
+			<part mesh="female_shaggy_hair_hat">
+				<texture name="female_shaggy_hair" color="hair"/>
+			</part>
 	</alt_hair>
 	<alt_hair name="female_base_hair">
-		<part mesh="female_base_hair_hat">
-			<texture name="female_hair_overlay" color="hair"/>
-		</part>
+			<part mesh="female_base_hair_hat">
+				<texture name="female_hair_overlay" color="hair"/>
+			</part>
 	</alt_hair>
 	<archetype name="BaseMale" male="true" hair_color="255,255,255" eye_color="0,0,255" skin_color="255,255,255" type="Player" stance="Like" voice_set="trader">
 		<base_mesh_parts>
@@ -2342,7 +2342,7 @@
 			<gene name="breastSize" value="0"/>
 		</dna>
 	</archetype>
-	<!--
+	<!--	
 	<archetype name="BanditMelee" male="true" hair_color="10,10,10" eye_color="30,30,25" skin_color="175,175,175" type="None" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">
@@ -3060,7 +3060,7 @@
 			<gene name="breastSize" value="0.5"/>
 		</dna>
 	</archetype>
--->
+-->	
 	<archetype name="Madmole" male="true" hair_color="85,70,60" eye_color="100,110,115" skin_color="230,230,230" type="Player" stance="Like" voice_set="trader">
 		<base_mesh_parts>
 			<part slot="head" layer="base" mesh="male_base_face">

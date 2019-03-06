@@ -300,8 +300,8 @@
 	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
 	<property name="Immunity" value="sickness;disease;wellness"/> <!-- bleeding; -->
 
-	<property name="ExperienceGain" value="1000"/> <!-- XP grunt -->
-	<property name="LootDropProb" value="0.02"/> <!-- Whether it drops a loot bag on death or not. -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt -->
+	<property name="LootDropProb" value="0.3"/> <!-- Whether it drops a loot bag on death or not. -->
 	<!-- <property name="LootListOnDeath" value="45"/> -->
 	<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
 
@@ -344,8 +344,8 @@
 	<property name="HandItem" value="meleeHandZombieCop"/>
 	<property name="JumpMaxDistance" value="4.6, 5"/>
 
-	<property name="ExperienceGain" value="3000"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -380,8 +380,8 @@
 
 	<!-- Gameplay -->
 	<!-- <property name="Buffs" value="zombieRadiatedBuff80"/> -->
-	<property name="ExperienceGain" value="5000"/> <!-- XP strong radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="2400"/> <!-- XP strong radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1010"/>
@@ -453,8 +453,8 @@
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
-	<property name="ExperienceGain" value="1100"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -469,8 +469,8 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1750"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -505,7 +505,7 @@
 
 	<property name="HandItem" value="meleeHandZombieFootballPlayer"/>
 
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -559,8 +559,8 @@
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
-	<property name="ExperienceGain" value="1100"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -575,8 +575,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/fatLadyZS_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1750"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -615,7 +615,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -630,8 +630,8 @@
 	<!-- Gameplay -->
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -663,7 +663,7 @@
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieStrong"/>
 	<property name="JumpMaxDistance" value="1.4, 1.5"/>
-	<property name="ExperienceGain" value="1000"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
@@ -681,8 +681,8 @@
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
-	<property name="ExperienceGain" value="1500"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="475"/>
@@ -696,8 +696,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/moe_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="2000"/> <!-- XP strong radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="2400"/> <!-- XP strong radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="902"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -748,7 +748,7 @@
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -762,8 +762,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/arlene_radiated"/>
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -790,7 +790,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -804,8 +804,8 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
@@ -865,8 +865,8 @@
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
-	<property name="ExperienceGain" value="1100"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="142"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -883,8 +883,8 @@
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="270"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -929,7 +929,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -942,8 +942,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/darlene_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -987,7 +987,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1000,8 +1000,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/marlene_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1038,7 +1038,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1051,8 +1051,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/yo_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
@@ -1090,7 +1090,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -1104,8 +1104,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/steve_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -1145,7 +1145,7 @@
 	<property name="HandItem" value="meleeHandZombie02Feral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="152"/>
@@ -1181,8 +1181,8 @@
 	<property name="MoveSpeedAggro" value=".5, 1.35"/>
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
@@ -1228,7 +1228,7 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieStrong"/>
-	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="300"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1244,8 +1244,8 @@
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
-	<property name="ExperienceGain" value="1800"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 
 	<effect_group name="Base Effects">
@@ -1316,8 +1316,8 @@
 
 	<property name="HandItem" value="meleeHandZombie02Feral"/>
 
-	<property name="ExperienceGain" value="1100"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1333,8 +1333,8 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombie02Feral"/>
-	<property name="ExperienceGain" value="1700"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1414,7 +1414,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1447,7 +1447,7 @@
 	<property name="HandItem" value="meleeHandZombieCop"/>
 	<property name="JumpMaxDistance" value=".9, 1"/>
 
-	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="300"/>
@@ -1464,8 +1464,8 @@
 
 	<property name="HandItem" value="meleeHandZombieCopFeral"/>
 
-	<property name="ExperienceGain" value="1800"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="570"/>
@@ -1526,7 +1526,7 @@
 	<property name="Explosion.DamageBonus.earth" value="0"/>
 	<property name="JumpMaxDistance" value="0, 0"/>
 
-	<property name="ExperienceGain" value="1300"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
@@ -1547,7 +1547,7 @@
 	<property name="Explosion.EntityDamage" value="200"/>
 
 	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="475"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1567,8 +1567,8 @@
 	<property name="Explosion.BlockDamage" value="750"/>
 	<property name="Explosion.EntityDamage" value="250"/>
 
-	<property name="ExperienceGain" value="3400"/> <!-- XP strong radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="2400"/> <!-- XP strong radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="902"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1632,7 +1632,7 @@
 	<property name="HandItem" value="meleeHandZombieWorkerFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1676,7 +1676,7 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieWorker"/>
-	<property name="ExperienceGain" value="1100"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -1694,8 +1694,8 @@
 
 	<property name="HandItem" value="meleeHandZombieWorkerFeral"/>
 
-	<property name="ExperienceGain" value="1600"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1715,8 +1715,8 @@
 
 	<property name="HandItem" value="meleeHandZombieWorkerFeral"/>
 
-	<property name="ExperienceGain" value="2250"/> <!-- XP strong radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="2400"/> <!-- XP strong radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1739,7 +1739,7 @@
 	<property name="SoundSense" value="zombiemalesense"/>
 
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1200"/> <!-- XP grunt -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1755,8 +1755,8 @@
 
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
-	<property name="ExperienceGain" value="1200"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1769,8 +1769,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/hoodieZombie_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1400"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1815,7 +1815,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1828,8 +1828,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/cheerleaderZombie_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="451"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1862,7 +1862,7 @@
 	<property name="HandItem" value="meleeHandZombieFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -1875,8 +1875,8 @@
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/oldTimer_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="541"/>
@@ -1896,7 +1896,7 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieStrong"/>
-	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="280"/>
@@ -1915,7 +1915,7 @@
 
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="532"/>
@@ -1929,8 +1929,8 @@
 	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/bikerZ_radiated"/>
 	<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
-	<property name="ExperienceGain" value="3200"/> <!-- XP strong radiated -->
-	<property name="LootDropProb" value=".03"/> <!-- Radiated -->
+	<property name="ExperienceGain" value="2400"/> <!-- XP strong radiated -->
+	<property name="LootDropProb" value=".3"/> <!-- Radiated -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1010"/>
@@ -1983,7 +1983,7 @@
 	<property name="HandItem" value="meleeHandZombieStrongFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="285"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2017,7 +2017,7 @@
 	<property name="HandItem" value="meleeHandZombieStripperFeral"/>
 
 	<property name="ExperienceGain" value="1000"/> <!-- XP grunt feral -->
-	<property name="LootDropProb" value=".03"/> <!-- Feral -->
+	<property name="LootDropProb" value=".3"/> <!-- Feral -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="237"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
@@ -2124,7 +2124,7 @@
 	<property name="MoveSpeedPanic" value="2.0"/>
 	<property name="CanClimbLadders" value="false"/>
 
-	<property name="ExperienceGain" value="700"/>
+	<property name="ExperienceGain" value="327"/>
 	<!-- <property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="0"/> -->
 	<property name="TimeStayAfterDeath" value="300"/>
 	<property name="DeadBodyHitPoints" value="350"/>
@@ -2158,14 +2158,14 @@
 	<property name="SoundDeath" value="Animals/stagdeath"/>
 
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="700"/>
+	<property name="ExperienceGain" value="327"/>
 	<property name="TimeStayAfterDeath" value="300"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- this triggers the special harvesting animation like on the knife -->
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="16"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="4"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="50"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
@@ -2179,11 +2179,11 @@
 
 	<!-- Gameplay -->
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalStag -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="6"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="6"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalStag -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="16"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="4"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="40"/>
@@ -2209,11 +2209,11 @@
 	<!-- Gameplay -->
 	<property name="MoveSpeedPanic" value="1.5"/>
 
-	<property name="ExperienceGain" value="300"/>
+	<property name="ExperienceGain" value="173"/>
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalRabbit -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalRabbit -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="3"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="10"/>
@@ -2242,8 +2242,8 @@
 	<property name="ExperienceGain" value="173"/>
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="15"/> <!-- animalChicken -->
-	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="55"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalChicken -->
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="46"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="10"/>
 		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
@@ -2291,6 +2291,7 @@
 	<property name="Faction" value="animals"/>
 	<property name="PhysicsBody" value="bear"/>
 
+	<property name="AIGroupCircle" value="1"/>
 	<property name="AIPathCostScale" value=".4, .6"/>
 	<property name="AITask-1" value="Swim"/>
 	<property name="AITask-2" value="BreakBlock"/>
@@ -2334,7 +2335,7 @@
 	<property name="HandItem" value="meleeHandAnimalBear"/>
 
 	<property name="TimeStayAfterDeath" value="300"/>
-	<property name="ExperienceGain" value="1500"/> <!-- XP grunt -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt -->
 	<!-- <property name="CorpseBlock" value="goreBlockAnimal"/><property name="CorpseBlockChance" value="0"/> -->
 	<property name="DeadBodyHitPoints" value="350"/>
 	<property name="MapIcon" value="ui_game_symbol_bullet_point"/>
@@ -2394,15 +2395,15 @@
 	<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
 
 	<!-- Gameplay -->
-	<property name="ExperienceGain" value="1000"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="DeadBodyHitPoints" value="600"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="100"/> <!-- animalBear -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="30"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="14"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="10"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="5"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="35"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="8"/>
 	<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/>
 
 	<effect_group name="Base Effects">
@@ -2431,14 +2432,14 @@
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandAnimalZombieBear"/>
 
-	<property name="ExperienceGain" value="2000"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="DeadBodyHitPoints" value="600"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/> <!-- animalZombieBear -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="40"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="15"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="8"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1000"/>
@@ -2512,11 +2513,11 @@
 	</effect_group>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalWolf -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="20"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="25"/> <!-- animalWolf -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="4"/>
 </entity_class>
 
 <entity_class name="animalDireWolf" extends="animalWolf">
@@ -2541,14 +2542,14 @@
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandAnimalZombieDogFeral"/>
 
-	<property name="ExperienceGain" value="1200"/> <!-- XP strong -->
+	<property name="ExperienceGain" value="1500"/> <!-- XP strong -->
 	<property name="DeadBodyHitPoints" value="450"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="55"/> <!-- animalDireWolf -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="24"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="35"/> <!-- animalDireWolf -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="22"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="4"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
@@ -2600,7 +2601,7 @@
 	<property name="DeadBodyHitPoints" value="175"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="3"/> <!-- animalZombieVulture -->
-	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="60"/>
+	<drop event="Harvest" name="resourceFeather" tag="butcherHarvest" count="30"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="30"/>
@@ -2618,7 +2619,7 @@
 	<property name="MoveSpeedAggro" value="1.5, 1.5"/>
 	<property name="MaxTurnSpeed" value="150"/>
 
-	<property name="ExperienceGain" value="1300"/> <!-- XP grunt radiated -->
+	<property name="ExperienceGain" value="900"/> <!-- XP grunt radiated -->
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="120"/>
@@ -2674,10 +2675,10 @@
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="4"/> <!-- animalZombieDog -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="8"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="1"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="6"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="2"/>
 	<!-- <drop event="Destroy" name="resourceAnimalFat" tag="butcherHarvest" count="2"/> -->
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="120"/>
@@ -2747,7 +2748,7 @@
 	<property name="ExperienceGain" value="170"/>
 	<property name="DeadBodyHitPoints" value="150"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/> <!-- animalSnake -->
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/> <!-- animalSnake -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
 
 	<effect_group name="Base Effects">
@@ -2803,11 +2804,11 @@
 	<property name="HandItem" value="meleeHandAnimalWolf"/>
 
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBoar -->
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="16"/>
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/> <!-- animalBoar -->
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12"/>
 	<drop event="Harvest" name="resourceAnimalFat" count="6" tag="butcherHarvest"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="8"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="4"/>
 
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="150"/>
@@ -2839,7 +2840,7 @@
 
 	<property name="HandItem" value="meleeHandAnimalWolf"/>
 
-	<property name="ExperienceGain" value="1000"/> <!-- XP strong feral -->
+	<property name="ExperienceGain" value="2000"/> <!-- XP strong feral -->
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="100"/> <!-- animalBoar -->
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="70"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="60"/>
@@ -3001,7 +3002,7 @@
 	<property name="Parent" value="SupplyCrates"/>
 	<property name="Faction" value="none"/>
 	<property name="Weight" value="100"/>
-	<property name="SurfaceCategory" value="resourceWood"/>
+	<property name="SurfaceCategory" value="wood"/>
 	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="200"/>
@@ -3021,7 +3022,7 @@
 	<property name="MaxHealth" value="200"/>
 	<property name="Weight" value="100"/>
 	<property name="HasRagdoll" value="false"/>
-	<property name="SurfaceCategory" value="resourceWood"/>
+	<property name="SurfaceCategory" value="wood"/>
 	<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 	<property name="LootListAlive" value="34"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -3247,7 +3248,7 @@
 
 	<property name="ExperienceGain" value="1039"/>
 
-	<property name="LootDropProb" value=".03"/>
+	<property name="LootDropProb" value=".3"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerBandit"/>
 
 	<property name="TimeStayAfterDeath" value="30"/>

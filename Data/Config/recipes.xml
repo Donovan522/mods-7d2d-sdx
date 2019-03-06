@@ -1251,6 +1251,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="foodCropPotato" count="2"/>
 	<ingredient name="foodCropCorn" count="2"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
 <recipe name="foodMoldyBread" count="1" craft_area="chemistryStation">
@@ -1266,8 +1267,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodSteakAndPotato" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable">
-	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
 	<ingredient name="resourceAnimalFat" count="1"/>
 </recipe>
 
@@ -1501,12 +1503,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="ironBars" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_iron" count="100"/>
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 
 <recipe name="ironBarsCentered" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-	<ingredient name="unit_iron" count="40"/>
+	<ingredient name="unit_iron" count="100"/>
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 
@@ -3318,9 +3320,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="toolBellows" count="1">
 	<ingredient name="resourceWood" count="6"/>
 	<ingredient name="resourceLeather" count="20"/>
-	<ingredient name="resourceMetalPipe" count="2"/>
-	<ingredient name="resourceDuctTape" count="5"/>
-	<ingredient name="resourceNail" count="5"/>
+	<ingredient name="resourceMetalPipe" count="1"/>
 </recipe>
 
 <recipe name="toolCookingGrill" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
@@ -3355,7 +3355,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="trapSpikesIronDmg0" count="1">
-	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceScrapIron" count="40"/>
 </recipe>
 
 <recipe name="trapSpikesWoodDmg0" count="1">

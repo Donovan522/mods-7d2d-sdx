@@ -119,13 +119,12 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="20" tags="secondary"/> <!-- using perc_add here increases StaminaOT for no obvious reason -->
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 	</effect_group>
@@ -188,11 +187,11 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="20" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 	</effect_group>
@@ -259,11 +258,11 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="19" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 	</effect_group>
@@ -505,11 +504,11 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="23" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 
@@ -569,16 +568,14 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="24" tags="secondary"/>
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
-
 	</effect_group>
 </item>
 
@@ -634,16 +631,14 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="24" tags="secondary"/>
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
-
 	</effect_group>
 </item>
 
@@ -763,16 +758,14 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="24" tags="secondary"/>
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
-
 	</effect_group>
 </item>
 
@@ -824,11 +817,11 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="31" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 	</effect_group>
@@ -1059,7 +1052,6 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".15" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-
 		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="allHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="0" tags="oreWoodHarvest"/>
@@ -1069,16 +1061,14 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_subtract" value="0" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="55" tags="secondary"/>
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
-
 	</effect_group>
 </item>
 
@@ -1133,15 +1123,16 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="40" tags="secondary"/>
-	</effect_group>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
-		</triggered_effect>
+		</triggered_effect>		
+	</effect_group>
+
 	<property name="Group" value="Tools/Traps"/>
 	<property name="ActionSkillGroup" value="Mining Tools"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -1177,11 +1168,16 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="40" tags="secondary"/>
-	</effect_group>
-		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
-			<requirement name="IsMale" target="self" invert="true"/>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
+			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
+			<requirement name="IsMale" target="self" invert="true"/>
+		</triggered_effect>			
+	</effect_group>
+
 </item>
 
 <item name="meleeToolPickaxeSteel">
@@ -1218,11 +1214,11 @@ We _want_ players to specialise so we also have to make it feasible.
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="40" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
 	</effect_group>
@@ -3422,7 +3418,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mlead"/>
-	<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
 	<property name="EconomicValue" value="11"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -3449,7 +3445,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mbrass"/>
-	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="128"/> <!-- STK ammo -->
 	<property name="EconomicValue" value="20"/>
 	<property name="CraftingSkillGroup" value="craftSkillGuns"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -3571,7 +3567,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value="0.5"/>
 	<property name="Material" value="Mwood"/>
-	<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
 	<property name="FuelValue" value="25"/>
 	<property name="EconomicValue" value="12"/>
 	<property name="EconomicBundleSize" value="5"/>
@@ -3675,7 +3671,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Material" value="Mwood"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value="0.05"/>
-	<property name="Stacknumber" value="500"/>
+	<property name="Stacknumber" value="250"/>
 	<property name="FuelValue" value="8"/>
 	<property name="EconomicValue" value="11"/>
 	<property name="EconomicBundleSize" value="5"/>
@@ -3712,7 +3708,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="Material" value="Mmetal"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value="0.05"/>
-	<property name="Stacknumber" value="500"/> <!-- STK ammo -->
+	<property name="Stacknumber" value="250"/> <!-- STK ammo -->
 	<property name="FuelValue" value="25"/>
 	<property name="EconomicValue" value="25"/>
 	<property name="EconomicBundleSize" value="5"/>
@@ -4019,7 +4015,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="PartType" value="Barrel"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/> <!-- 1 repairKit is worth 2000 -->
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="750"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip"/>
@@ -5842,7 +5838,8 @@ So no clothing dyes until that can be resolved. -->
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="AttributeLevel" tags="attStrength" operation="base_add" value="1"/>
-		<passive_effect name="Bartering" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value="0.1"/>
 	</effect_group>
 </item>
 
@@ -5856,7 +5853,8 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CreativeMode" value="Dev"/>
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="Bartering" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringBuying" operation="base_add" value="0.1"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value="0.1"/>
 	</effect_group>
 </item>
 
@@ -6965,7 +6963,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="10"/>
-	<property name="Stacknumber" value="50"/> <!-- STK medical -->
+	<property name="Stacknumber" value="20"/> <!-- STK medical -->
 	<property name="Group" value="Science"/>
 	<property name="ActionSkillGroup" value="Medicine"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -7022,7 +7020,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Health/gauze"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="50"/> <!-- STK medical -->
+	<property name="Stacknumber" value="10"/> <!-- STK medical -->
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
 	<property name="EconomicValue" value="5"/>
@@ -7069,7 +7067,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="medicalFirstAidBandageDesc"/>
-	<property name="Stacknumber" value="50"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="CraftingIngredientExp" value="2"/>
 
@@ -7112,7 +7110,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	<property name="Stacknumber" value="20"/>
+	<property name="Stacknumber" value="5"/>
 	<property class="Action0">
 		<!-- <requirement name="StatCompare" stat="health" operation="lte" value="50"/> -->
 		<property name="Sound_start" value="player_firstAidKit"/>
@@ -7230,7 +7228,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="6"/>
 	<property name="EconomicValue" value="149"/>
-	<property name="Stacknumber" value="10"/> <!-- STK loot -->
+	<property name="Stacknumber" value="1"/> <!-- STK loot -->
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -7271,7 +7269,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="9f9fff"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="50"/> <!-- STK medical -->
+	<property name="Stacknumber" value="15"/> <!-- STK medical -->
 	<property name="EconomicValue" value="50"/>
 	<property name="CraftingIngredientTime" value="20"/>
 	<property name="Group" value="Science"/>
@@ -7537,7 +7535,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Morganic"/>
 	<property name="EconomicValue" value="80"/>
-	<property name="Stacknumber" value="50"/> <!-- STK food -->
+	<property name="Stacknumber" value="10"/> <!-- STK food -->
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -7991,8 +7989,8 @@ So no clothing dyes until that can be resolved. -->
 
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="47"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="24"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>
@@ -8017,8 +8015,8 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Food/Cooking"/>
 
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="49"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="24"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="50"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="25"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>
@@ -8226,8 +8224,8 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MfoodRawMeat"/>
-	<property name="Stacknumber" value="500"/> <!-- STK food -->
-	<property name="EconomicValue" value="2"/>
+	<property name="Stacknumber" value="250"/> <!-- STK food -->
+	<property name="EconomicValue" value="7"/>
 	<property name="CraftingIngredientTime" value="3"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -8255,7 +8253,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MfoodRawMeat"/>
-	<property name="Stacknumber" value="500"/> <!-- STK food -->
+	<property name="Stacknumber" value="100"/> <!-- STK food -->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
@@ -8579,7 +8577,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="50"/>
+	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="CraftingIngredientTime" value="10"/>
 	<property class="Action0">
@@ -9103,7 +9101,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="5"/>
 	<property name="FuelValue" value="5"/>
-	<property name="Stacknumber" value="10"/> <!-- STK book -->
+	<property name="Stacknumber" value="1"/> <!-- STK book -->
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Books"/>
 </item>
@@ -9444,13 +9442,13 @@ So no clothing dyes until that can be resolved. -->
 
 <item name="modArmorMuffledConnectorsSchematic">
 	<property name="Extends" value="schematicMaster"/>
-	<property name="DescriptionKey" value="schematicMaster3Desc"/>
+	<property name="DescriptionKey" value="schematicMaster2Desc"/>
 	<property name="EconomicValue" value="500"/>
 </item>
 
 <item name="modArmorAdvancedMuffledConnectorsSchematic">
 	<property name="Extends" value="schematicMaster"/>
-	<property name="DescriptionKey" value="schematicMaster2Desc"/>
+	<property name="DescriptionKey" value="schematicMaster3Desc"/>
 	<property name="EconomicValue" value="500"/>
 </item>
 
@@ -9775,7 +9773,7 @@ So no clothing dyes until that can be resolved. -->
 <item name="unlockBookMaster">
 	<property name="Extends" value="schematicMaster" param1="DescriptionKey"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="5"/>
 	<property name="EconomicValue" value="200"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -10749,7 +10747,7 @@ So no clothing dyes until that can be resolved. -->
 	</property>
 	<property name="ThrowableDecoy" value="true"/>
 	<property name="Group" value="Resources"/>
-	<property name="CraftingIngredientTime" value="0.5"/>
+	<property name="CraftingIngredientTime" value="0.05"/>
 	<property name="DistractionTags" value="zombie,requires_contact"/>
 	<effect_group name="Base Effects" tiered="false">
 		<passive_effect name="DistractionRadius" operation="base_set" value="25"/>
@@ -10830,7 +10828,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Resources,Basics"/>
 	<property name="RepairAmount" value="100"/>
 	<property name="LootExpValue" value="1"/>
-	<property name="CraftingIngredientTime" value="0.25"/>
+	<property name="CraftingIngredientTime" value="0.05"/>
 </item>
 
 <item name="resourceCrushedSand">
@@ -10851,7 +10849,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceIronFragment"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1200"/> <!-- STK resource -->
 	<property name="SellableToTrader" value="false"/>
 	<property name="EconomicValue" value="25"/>
 	<property name="EconomicBundleSize" value="5"/>
@@ -10870,7 +10868,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Resources"/>
 	<property name="RepairTime" value="0.5"/>
 	<property name="RepairAmount" value="20"/>
-	<property name="CraftingIngredientTime" value="0.2"/>
+	<property name="CraftingIngredientTime" value="0.05"/>
 </item>
 
 <item name="resourceForgedIron">
@@ -10881,7 +10879,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Stacknumber" value="500"/> <!-- STK resource -->
 	<property name="EconomicValue" value="12"/>
 	<property name="CraftingIngredientExp" value="10"/>
-	<property name="CraftingIngredientTime" value="10"/>
+	<property name="CraftingIngredientTime" value="2"/>
 	<property name="RepairTime" value="0.5"/>
 	<property name="RepairAmount" value="270"/>
 	<property name="Group" value="Resources"/>
@@ -10906,7 +10904,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="EconomicValue" value="50"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
-	<property name="CraftingIngredientTime" value="15"/>
+	<property name="CraftingIngredientTime" value="6"/>
 	<property name="RepairTime" value="1"/>
 	<property name="RepairAmount" value="400"/>
 </item>
@@ -10917,7 +10915,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="16"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
@@ -10947,7 +10945,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Crafting/femur"/>-->
 	<property name="Material" value="MresourceFemur"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="RepairAmount" value="270"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="SellableToTrader" value="false"/>
@@ -11194,7 +11192,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceConcreteMix"/>
 	<property name="Weight" value="20"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="125"/>
 	<property name="EconomicBundleSize" value="50"/>
 	<property name="Group" value="Resources"/>
@@ -11205,7 +11203,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mcloth"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="RepairAmount" value="50"/>
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="5"/>
@@ -11220,7 +11218,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourcePaper"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="FuelValue" value="1"/>
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="15"/>
@@ -11243,7 +11241,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MmilitaryFiber"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="CraftingIngredientExp" value="10"/>
 	<property name="CraftingIngredientTime" value="10"/>
 	<property name="RepairTime" value="0.6"/>
@@ -11260,7 +11258,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MelectricParts"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="32"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
@@ -11276,7 +11274,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MelectronicParts"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="50"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
@@ -11290,7 +11288,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="5"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="32"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
@@ -11344,7 +11342,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceFeather"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="FuelValue" value="1"/>
 	<!-- <property name="CraftingIngredientExp" value="0"/> -->
 	<property name="EconomicValue" value="10"/>
@@ -11418,7 +11416,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mlead"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="250"/> <!-- STK resource -->
 	<property name="EconomicValue" value="10"/>
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Group" value="Resources,Ammo/Weapons"/>
@@ -11466,7 +11464,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapIron"/>
-	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="12000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="10"/>
 	<property name="EconomicBundleSize" value="10"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -11527,7 +11525,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceOil"/>
-	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="Stacknumber" value="50"/> <!-- STK resource -->
 	<property name="EconomicValue" value="100"/>
 	<property name="Group" value="Chemicals"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
@@ -11624,7 +11622,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapBrassLarge"/>
-	<property name="Stacknumber" value="5"/> <!-- STK loot -->
+	<property name="Stacknumber" value="50"/> <!-- STK loot -->
 	<property name="Weight" value="100"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="Group" value="Resources"/>
@@ -11725,7 +11723,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="PartType" value="Receiver"/>
 	<property name="Material" value="MsmallEngine"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
 	<property name="EconomicValue" value="1000"/>
 	<property name="Group" value="Resources"/>
@@ -11774,7 +11772,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="VehicleSlotType" value="resourceHeadlight"/>
 	<property name="Material" value="MresourceForgedSteel"/>
-	<property name="Stacknumber" value="50"/> <!-- STK loot -->
+	<property name="Stacknumber" value="500"/> <!-- STK loot -->
 	<property name="Weight" value="10"/>
 	<property name="EconomicValue" value="240"/>
 	<property name="Group" value="Resources"/>
@@ -11883,7 +11881,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MtoolBellows"/>
-	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Stacknumber" value="10"/> <!-- STK resource -->
 	<property name="Weight" value="100"/>
 	<property name="EconomicValue" value="405"/>
 	<property name="Group" value="Resources"/>
@@ -11896,7 +11894,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="200"/>
-	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="Stacknumber" value="10"/> <!-- STK loot -->
 	<property name="EconomicValue" value="240"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -11908,7 +11906,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="30"/>
-	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="Stacknumber" value="10"/> <!-- STK loot -->
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -11919,7 +11917,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="Group" value="Resources"/>
 	<property name="EconomicValue" value="600"/>
 	<property name="CraftingSkillGroup" value="craftSkillTools"/>
@@ -12227,16 +12225,14 @@ So no clothing dyes until that can be resolved. -->
 		<passive_effect name="EntityDamage" operation="perc_add" value="5" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="5" tags="secondary"/>
 		<passive_effect name="StaminaLoss" operation="base_add" value="12" tags="secondary"/>
-
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player1painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="PlaySound" target="self" sound="player2painlg">
-			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="80"/>
 			<requirement name="IsMale" target="self" invert="true"/>
 		</triggered_effect>
-
 		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="knockdown"/>
 	</effect_group>
 </item>
