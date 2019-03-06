@@ -15,7 +15,7 @@
 					<filledsprite depth="8" name="background" color="0,0,0,255" width="171" fillcenter="false" type="filled" fill="1" />
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="170" fillcenter="false" type="filled" fill="1" />
 				</rect>
-				
+
 				<rect width="171" height="43" pos="0,47" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,100" height="43" type="sliced"/>
 					<sprite depth="2" pos="3,-3"  name="background" height="37" width="169" color="64,64,64,100" type="sliced" />
@@ -193,14 +193,14 @@
 			<texture style="compass.window.compass.texture" name="compassTexture" rect_size="0.25,1" rect_offset=".8,0" >
 
 			</texture>
-			
+
 			<sprite depth="5" name="Icon" sprite="ui_game_symbol_map_player_arrow" size="16,16" pos="248,-7" rotation="180" color="[black]" foregroundlayer="true"/>
 			<sprite depth="6" name="Icon" sprite="ui_game_symbol_map_player_arrow" size="12,12" pos="246,-5" rotation="180" color="[white]" foregroundlayer="true"/>
 
 			<sprite depth="5" name="Icon" sprite="ui_game_symbol_map_player_arrow" size="16,16" pos="232,-37" color="[black]" foregroundlayer="true"/>
 			<sprite depth="6" name="Icon" sprite="ui_game_symbol_map_player_arrow" size="12,12" pos="234,-39" color="[white]" foregroundlayer="true"/>
 
-			<label depth="2" name="TextContent" pos="153,-66" font_size="28" color="[white]" justify="center" pivot="center" text="{daytitle}: {day|always}  {timetitle}: {time|always}" height="30" effect="outline" upper_case="true" />
+			<label depth="2" name="TextContent" pos="153,-66" font_size="28" justify="center" pivot="center" text="{daytitle}: [{daycolor|always}]{day|always}  {timetitle}: {time|always}" height="30" effect="outline" upper_case="true" />
 
 			<sprite depth="2" name="Icon" sprite="ui_game_symbol_temperature" size="22,22" pos="251,-55" color="[white]" />
 			<label depth="2" name="TextContent" pos="299,-66" font_size="28" color="[white]" justify="center" pivot="center" text="{maptemperature}[-]" height="30" controller="MapStats" effect="outline"/>
@@ -478,19 +478,19 @@
 			<button depth="4" name="statButton" style="icon30px, press" pos="22,-22" sprite="ui_game_symbol_ping" pivot="center" tooltip="Stats" sound="[paging_click]" selected="true" />
 			<button depth="4" name="descriptionButton" style="icon30px, press" pos="65,-22" sprite="ui_game_symbol_book" pivot="center" tooltip="Description" sound="[paging_click]" />
 		</rect>
-		
+
 			<rect depth="1" pos="153,0" name="description" width="447" height="271" visible="{showonlydescription}">
 				<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
 				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="453" height="274" color="[black]" type="sliced" fillcenter="false" />
-				
+
 				<label depth="3" name="descriptionText" pos="6,-5" text="{itemdescription}"  width="440" />
-			
+
 				<!--label depth="3" name="statText" pos="6,-2" width="254" height="100%" text="{itemstats1}" />
 				<label depth="3" name="statText2" pos="227,-2" width="220" height="100%" text="{itemstats2}" /> -->
 			</rect>
 
 			<rect depth="1" pos="153,-43" name="description" width="447" height="228" visible="{showstatanddescription}">
-				
+
 				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="453" height="231" color="[black]" type="sliced" fillcenter="false" />
 				<!-- <rect depth="3" visible="{showdescription}"> -->
 					<!-- <grid name="itemProperties" rows="7" pos="6,-12" width="453" height="100%" cell_width="226" cell_height="27" arrangement="vertical" controller="ItemPropertyList"> -->
@@ -511,7 +511,7 @@
 						<!-- <item_property_entry/> -->
 					<!-- </grid> -->
 				<!-- </rect> -->
-				
+
 				<rect depth="3" visible="{showstats}" width="453">
 					<rect pos="-3,0" height="35">
 						<sprite depth="8" sprite="menu_empty3px" height="35" color="[black]" type="sliced" fillcenter="false" />
@@ -1003,7 +1003,7 @@
 				<label depth="3" pos="15,-3" width="290" font_size="26" text="" justify="right" color="[selectedColor]" />
 			</rect>
 		</rect>
-		
+
 		<rect visible="{showcore}" depth="0" pos="0,-86" width="327">
 			<rect pos="0,0" height="33">
 				<sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
@@ -1236,7 +1236,7 @@
 						<!-- <button depth="4" name="pageUp" style="icon30px, press" pos="84,-22" sprite="ui_game_symbol_arrow_right" pivot="center" sound="[paging_click]"/> -->
 					<!-- </panel> -->
 				<!-- </rect> -->
-				
+
 				<rect depth="1" pos="153,0" name="description" width="448" height="346">
 				<sprite depth="1" color="[darkGrey]" type="sliced" globalopacity="true" />
 				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,0" width="453" height="346" color="[black]" type="sliced" fillcenter="false" />
@@ -1267,7 +1267,7 @@
 				<!--label depth="3" name="statText" pos="6,-2" width="254" height="100%" text="{itemstats1}" />
 				<label depth="3" name="statText2" pos="227,-2" width="220" height="100%" text="{itemstats2}" /> -->
 			</rect>
-				
+
 				<!-- <rect depth="1" pos="153,-3" name="description" width="447" height="160"> -->
 					<!-- <sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="453" height="166" color="[black]" type="sliced" fillcenter="false" /> -->
 					<!-- <sprite depth="1" color="[mediumGrey]" type="sliced" globalopacity="true" /> -->
@@ -1286,7 +1286,7 @@
 			</rect>
 		</rect>
 	</window>
-	
+
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="mapArea" width="718" height="770" panel="Center" controller="MapArea" cursor_area="true" >
@@ -1580,7 +1580,7 @@
 			<rect depth="1" pos="3,-3" width="380" height="739">
 
 			<rect width="380" height="218">
-					
+
 					<rect name="stats">
 						<rect pos="0,0" height="33">
 							<sprite depth="8" sprite="menu_empty3px" height="33" color="[black]" type="sliced" fillcenter="false" />
@@ -1625,11 +1625,11 @@
 							<label depth="3" pos="15,-3" width="350" font_size="26" text="{fuel}%" justify="right" color="[selectedColor]" />
 						</rect>
 					</rect>
-					
+
 				</rect>
-			
-					
-				
+
+
+
 				<rect name="btnRefuel" depth="3" pos="0, -211" height="34">
 					<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 					<!-- <sprite depth="2" name="background" pos="1,-3" sprite="menu_empty" width="379" height="32" color="[darkGrey]" type="sliced"/> -->
@@ -1660,7 +1660,7 @@
 						<label depth="2" name="windowName" pos="0,-1" justify="center" text="REPAIR" text_key="xuiRepair" font_size="28" />
 					</rect>
 				</rect>
-				
+
 				<panel name="header" pos="0,-286" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 					<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_assemble"/>
 					<label style="header.name" text_key="xuiModifiers" />
@@ -1673,7 +1673,7 @@
 
 		</panel>
 	</window>
-	
+
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowParts" width="380" height="733" panel="Left" controller="VehicleFrameWindow" cursor_area="true" >
 	<!--#$-IGS END.-$#-->
@@ -1688,7 +1688,7 @@
 			<rect depth="1" pos="3,-3" width="380" height="300">
 				<grid name="parts" rows="8" cols="1" pos="3,0" cell_width="374" cell_height="60" repeat_content="true" controller="VehiclePartStackGrid">
 					<vehicle_part_slot />
-				</grid>			
+				</grid>
 			</rect>
 		</panel>
 	</window>
@@ -1767,10 +1767,10 @@
 		<grid depth="2" name="inventory" rows="10" cols="9" pos="3,-46" cell_width="75" cell_height="75" repeat_content="true" controller="VehicleContainer">
 			<item_stack name="0"/>
 		</grid>
-		
-		
+
+
 	</window>
-	
+
 
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
 	<window name="windowAssemble" width="380" height="745" panel="Left" controller="AssembleWindow" cursor_area="true" >
@@ -1834,12 +1834,12 @@
 							<label depth="3" pos="15,-3" width="350" font_size="26" text="{itemstat7}" justify="right" color="[selectedColor]" />
 						</rect>
 					</rect>
-					
+
 					<panel name="header" pos="0,-226" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 						<sprite depth="2" name="windowIcon" style="icon32px" pos="5,-5" sprite="ui_game_symbol_assemble"/>
 						<label style="header.name" text_key="xuiModifiers" />
 					</panel>
-					
+
 					<grid name="parts" rows="6" cols="1" pos="3,-275" cell_width="374" cell_height="60" repeat_content="true" controller="ItemPartStackGrid">
 						<item_part_slot />
 					</grid>
